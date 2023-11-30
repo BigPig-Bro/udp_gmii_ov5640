@@ -1,0 +1,50 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/9134/i2c_master/i2c_config.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/i2c_master/i2c_master_bit_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/i2c_master/i2c_master_byte_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/i2c_master/i2c_master_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/i2c_master/i2c_master_top.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/i2c_master/timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/9134/lut_si9134.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/DDR3MI.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface1/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/DVI_TX_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/video_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs_axi/fifo_hs_axi.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/TMDS_rPLL.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/cmos_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll_iic.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll_lcd.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/mem_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/sys_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/iic_init/iic_ctrl.sv" type="file.verilog" enable="1"/>
+        <File path="src/iic_init/iic_master.sv" type="file.verilog" enable="1"/>
+        <File path="src/ov5640_capture_data.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/async_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/axi_full_core.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/axi_native_transition.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/fifo_to_video_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/fifomem.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/rptr_empty.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/sync_r2w.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/sync_w2r.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/video_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/video_stiching_top.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/video_to_fifo_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/video-ddr/wptr_full.v" type="file.verilog" enable="1"/>
+        <File path="src/video_frame_buffer/Video_Frame_Buffer_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/top.cst" type="file.cst" enable="1"/>
+        <File path="src/lcd.sdc" type="file.sdc" enable="1"/>
+        <File path="src/top.rao" type="file.gao" enable="1"/>
+        <File path="src/iic_init/init_480x272.txt" type="file.other" enable="1"/>
+    </FileList>
+</Project>
