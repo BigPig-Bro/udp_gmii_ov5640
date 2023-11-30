@@ -1,0 +1,101 @@
+//================IO 位置设置==================================
+
+IO_LOC "grey_mode" 		L8;
+IO_LOC "slow_mode" 		M6;
+IO_LOC "rst_n" 		T6;
+IO_LOC "sys_clk" 	H11;
+IO_LOC "ws2812_io" 	P6;
+
+//============ 自制
+IO_LOC "GMII_GTXCLK" 	H13;
+IO_LOC "GMII_TXD[0]" 	H12;
+IO_LOC "GMII_TXD[1]" 	A13;
+IO_LOC "GMII_TXD[2]" 	C13;
+IO_LOC "GMII_TXD[3]" 	F15;
+IO_LOC "GMII_TXD[4]" 	D16;
+IO_LOC "GMII_TXD[5]" 	A9;
+IO_LOC "GMII_TXD[6]" 	C9;
+IO_LOC "GMII_TXD[7]" 	J11;
+IO_LOC "GMII_TXEN"  	G11;
+IO_LOC "GMII_TXER"  	L12;
+IO_LOC "GMII_RST_N"  	E16;
+
+//=======ADV7611=========
+IO_LOC 	 "adv7611_rst_n" 			P11;	
+IO_LOC 	 "adv7611_sda" 				M14;	
+IO_LOC 	 "adv7611_scl" 				M15;	
+IO_LOC 	 "adv7611_pclk" 			G12;	
+IO_LOC 	 "adv7611_vs" 				F13;	
+IO_LOC 	 "adv7611_hs" 				J16;	
+IO_LOC 	 "adv7611_de" 				T15;
+
+IO_LOC 	 "adv7611_data[0]" 		G15;	
+IO_LOC 	 "adv7611_data[1]" 		E15;	
+IO_LOC 	 "adv7611_data[2]" 		F16;	
+IO_LOC 	 "adv7611_data[3]" 		A15;	
+IO_LOC 	 "adv7611_data[4]" 		D14;	
+IO_LOC 	 "adv7611_data[5]" 		C12;	
+IO_LOC 	 "adv7611_data[6]" 			B13;	
+IO_LOC 	 "adv7611_data[7]" 			A12;	
+IO_LOC 	 "adv7611_data[8]" 			B12;	
+IO_LOC 	 "adv7611_data[9]" 			B11;	
+IO_LOC 	 "adv7611_data[10]" 			C11;	
+IO_LOC 	 "adv7611_data[11]" 			N6;	
+IO_LOC 	 "adv7611_data[12]" 			R9;	
+IO_LOC 	 "adv7611_data[13]" 			N9;	
+IO_LOC 	 "adv7611_data[14]" 			L9;	
+IO_LOC 	 "adv7611_data[15]" 			N8;	
+
+IO_LOC "hdmi_clk_p" G16,H15;
+IO_LOC "hdmi_data_p[0]" H14,H16;
+IO_LOC "hdmi_data_p[1]" J15,K16;
+IO_LOC "hdmi_data_p[2]" K14,K15;
+
+//================IO 电平设置==================================
+IO_PORT "slow_mode" IO_TYPE=LVCMOS33;
+IO_PORT "grey_mode" IO_TYPE=LVCMOS33;
+IO_PORT "rst_n" IO_TYPE=LVCMOS33;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33;
+IO_PORT "ws2812_io" IO_TYPE=LVCMOS33;
+
+IO_PORT "GMII_GTXCLK" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[0]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[1]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[2]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[3]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[4]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[5]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[6]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXD[7]" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXEN" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_RST_N" IO_TYPE=LVCMOS33;
+IO_PORT "GMII_TXER" IO_TYPE=LVCMOS33;
+
+IO_PORT "adv7611_rst_n" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_sda" 		 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_scl" 		 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_hs" 		 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_vs" 		 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_de" 		 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_pclk" 	 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[0]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[1]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[2]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[3]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[4]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[5]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[6]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[7]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[8]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[9]" 	 IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[10]"   IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[11]"   IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[12]"   IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[13]"   IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[14]"   IO_TYPE=LVCMOS33;
+IO_PORT "adv7611_data[15]"   IO_TYPE=LVCMOS33;
+
+IO_PORT "hdmi_clk_p" 	 IO_TYPE=LVDS25;
+IO_PORT "hdmi_data_p[0]" IO_TYPE=LVDS25;
+IO_PORT "hdmi_data_p[1]" IO_TYPE=LVDS25;
+IO_PORT "hdmi_data_p[2]" IO_TYPE=LVDS25;

@@ -1,0 +1,35 @@
+[General]
+ipc_version=4
+file=fifo4096x20
+module=fifo4096x20
+target_device=gw2a18c-011
+type=fifo_hs
+version=1.0
+
+[Config]
+AlmostEmptyFlag=false
+AlmostEmptyFlagItem=Empty_Single Threshold Constant Parameter
+AlmostFullFlag=true
+AlmostFullFlagItem=Full_Single Threshold Constant Parameter
+BSRAM=true
+ControlledByRdEn=true
+ECCSelected=false
+EmptyClear=1
+EmptySet=1
+EnReset=false
+FirstWordFallThrough=false
+FullClear=1
+FullSet=720
+LANG=0
+OutputRegistersSelected=true
+REG=false
+ReadDataNum=false
+ReadDataWidth=10
+ReadDepth=8192
+ResetSynchronization=true
+SSRAM=false
+StandardFIFO=true
+Synthesis_tool=GowinSynthesis
+WriteDataNum=false
+WriteDataWidth=20
+WriteDepth=4096

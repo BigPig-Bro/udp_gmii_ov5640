@@ -1,0 +1,29 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/GMII_send.sv" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/i2c_config.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/i2c_master_bit_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/i2c_master_byte_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/i2c_master_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/i2c_master_top.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/i2c_master/timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/adv7611/lut_adv7611.v" type="file.verilog" enable="1"/>
+        <File path="src/crc.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/DVI_TX_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/fifo4096x20.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/GMII_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/video_recive.sv" type="file.verilog" enable="1"/>
+        <File path="src/ws2812_top.v" type="file.verilog" enable="1"/>
+        <File path="src/top.cst" type="file.cst" enable="1"/>
+        <File path="src/udp_gmii_rgb_1080p30.sdc" type="file.sdc" enable="1"/>
+        <File path="src/fifo_rd.rao" type="file.gao" enable="0"/>
+        <File path="src/udp_gmii.rao" type="file.gao" enable="0"/>
+        <File path="src/udp_gmii_rgb.rao" type="file.gao" enable="0"/>
+    </FileList>
+</Project>

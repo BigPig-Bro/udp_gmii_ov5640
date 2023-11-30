@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="fifo4096x20" Register="93" Alu="25" Lut="115" Bsram="5" Ssram="4"/>
